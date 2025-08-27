@@ -14,6 +14,8 @@ var app = builder.Build();
 app.UseSwagger();
 app.UseSwaggerUI();
 
+//swagger always on
+
 
 app.UseHttpsRedirection();
 
